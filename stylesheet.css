@@ -1,6 +1,7 @@
 body {
     background-image: url("img/和紙.jpg");
     font-family: "Sawarabi Mincho";
+    width: 98%;
 }
 
 h1 {
@@ -18,14 +19,29 @@ h4 {
     text-align: center;
 }
 
-li {
-    font-size: 3vh;
+.songList {
+    text-align: center;
+    list-style: none;
     display: flex;
-    margin-left: 5%;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.set {
+    margin: 3vh;
+    width: 20vw;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: left;
+    font-size: 2vw;
+    margin-left: 3%;
 }
 
 ul li {
-    font-size: 2.5vh;
-    text-align: left;
-    margin-left: 8%;
+    font-size: 1.3vw;
 }
