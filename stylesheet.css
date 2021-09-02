@@ -77,6 +77,20 @@ ul li {
         text-align: left;
         font-size: 9px;
         font-weight: 700;
-        margin-bottom: 1vmin;
+        margin-bottom: 1vmin
     }
+    
+    .songList {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.set {
+    margin-top: 3vmin;
+    width: 30vw;
+}
+
 }
