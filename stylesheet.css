@@ -54,8 +54,8 @@ ul li {
     margin-bottom: 1vmin;
 }
 
-@media screen and (max-width: 479px) {
-    /*ウィンドウ幅が最大479pxまでの場合に適用*/
+@media screen and (max-width: 640px) {
+    /*ウィンドウ幅が最大640pxまでの場合に適用*/
     h1 {
         font-size: 20px;
     }
