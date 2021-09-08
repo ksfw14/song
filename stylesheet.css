@@ -1,7 +1,7 @@
 body {
     background-image: url("img/和紙.jpg");
     font-family: "Sawarabi Mincho";
-    font-weight: bold;
+    font-weight: 700;
     width: 98%;
 }
 
@@ -23,16 +23,22 @@ h4 {
 }
 
 .songList {
+    color: #ffffff;
+    text-shadow: 1.5px 1.5px 1.5px #003300, -1.5px 1.5px 1.5px #003300, 1.5px -1.5px 1.5px #003300, -1.5px -1.5px 1.5px #003300, 1.5px 0px 1.5px #003300, 0px 1.5px 1.5px #003300, -1.5px 0px 1.5px #003300, 0px -1.5px 1.5px #003300;
     text-align: center;
+    margin-left: 2%;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 20px;
     height: 100vh;
+    width: 98%;
 }
 
 .set {
     margin-top: 3vmin;
+    background-image: url("C:/Users/ksfw1/Desktop/Webサイト/弾き語りレパートリー/img/和紙緑.jpg");
+    padding: 10px;
 }
 
 ul {
