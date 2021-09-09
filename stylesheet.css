@@ -26,7 +26,7 @@ h4 {
     color: #ffffff;
     text-shadow: 1.5px 1.5px 1.5px #003300, -1.5px 1.5px 1.5px #003300, 1.5px -1.5px 1.5px #003300, -1.5px -1.5px 1.5px #003300, 1.5px 0px 1.5px #003300, 0px 1.5px 1.5px #003300, -1.5px 0px 1.5px #003300, 0px -1.5px 1.5px #003300;
     text-align: center;
-    margin-left: 2%;
+    margin-left: 1%;
     list-style: none;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
